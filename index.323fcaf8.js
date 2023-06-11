@@ -1,0 +1,2 @@
+!function(){var e;document.querySelector(".breed-select"),document.querySelector(".loader"),document.querySelector(".error"),document.querySelector(".cat-info");e=[],fetch("https://api.thecatapi.com/v1/breeds",{headers:{"x-api-key":" live_AqVAdbSI3iq6qvheU2btDbPvPUx4FhPf0KO84Ew4BtwLMszLCefwpjCjD6X1ksjH"}}).then((function(e){return e.json()})).then((function(t){e=t.map((function(e){return e.name})),console.log(e)})).catch((function(e){console.log(e)}))}();
+//# sourceMappingURL=index.323fcaf8.js.map
